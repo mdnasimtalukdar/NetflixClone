@@ -188,3 +188,28 @@ html{
     margin-top: 2rem;
 }
 /* Download Your Show */
+/* Watch Everywhere */
+#watch{
+    padding-bottom: 15rem;
+}
+.watchContent{
+    text-align: center;
+}
+.watchContent h2{
+    margin-bottom: 3rem;
+}
+/* Watch Everywhere */
+/* For Kids */
+#kids{
+    padding-bottom: 15rem;
+}
+.kidsProfile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+}
+.kidsContent h2{
+    margin-bottom: 3rem;
+}
+/* For Kids */
