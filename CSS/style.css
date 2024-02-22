@@ -16,16 +16,22 @@ html{
     font-family: "Roboto", sans-serif;
     font-size: 62.5%;
     color: rgb(255, 255, 255);
+    background: #000;
 }
 :root {
     --colorPrimary: #e50914;
 }
 .sectionHeading{
     font-size: 4.8rem;
-    font-weight: 900;
+    font-weight: bolder;
+}
+.sectionPera{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 4rem;
 }
 .container{
-    width: 90%;
+    width: 75%;
     margin: 0 auto;
 }
 /* Banner Start */
@@ -34,7 +40,7 @@ html{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     height: 80vh;
     position: relative;
 }
@@ -88,6 +94,11 @@ html{
     line-height: 3rem;
     margin-bottom: 3rem;
 }
+.banner .bannerContent .bannerContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .banner .bannerContent .bannerContact button{
     font-size: 2.4rem;
     color: rgb(255, 255, 255);
@@ -111,3 +122,69 @@ html{
     padding-right: 15rem;
 }
 /* Banner Start */
+/* Enjoy your Tv */
+#enjoyTv{
+    padding: 15rem 0;
+}
+.enjoyTvcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.enjoyTvtext h2{
+    margin-bottom: 2rem;
+}
+.enjoyTvtext p{
+    line-height: 4rem;
+}
+.enjoyTvMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enjoyTvMedia img{
+    position: relative;
+    z-index: 10;
+}
+.enjoyTvMedia video{
+    position: absolute;
+    scale: 1.04;
+}
+/* Enjoy your Tv */
+/* Download Your Show */
+#downloadShows{
+    padding-bottom: 15rem;
+}
+.downloadShowContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+.downloadShowContent .showimages{
+    position: relative;
+}
+.downloadShowContent .showimages .imageContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10rem;
+    width: 35rem;
+    border: 2px solid gray;
+    padding: .8rem 1.2rem;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #000;
+    opacity: .80;
+}
+.downloadShowContent .showimages .imageContent img{
+    height: 100%;
+}
+.showText p{
+    margin-top: 2rem;
+}
+/* Download Your Show */
