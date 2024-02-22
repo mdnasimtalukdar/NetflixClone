@@ -270,3 +270,22 @@ html{
     cursor: pointer;
 }
 /* Faq */
+/* Footer */
+footer{
+    padding-bottom: 15rem;
+}
+.footerItems{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-items: center;
+}
+.footerItem ul li a{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+/* Footer */
