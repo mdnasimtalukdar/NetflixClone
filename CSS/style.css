@@ -212,4 +212,61 @@ html{
 .kidsContent h2{
     margin-bottom: 3rem;
 }
-/* For Kids */
+/* Faq */
+#faq{
+    padding-bottom: 15rem;
+}
+.faqContent h2{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.faqItem{
+    background-color: #2d2d2d;
+    padding: 2.4rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.faqItem h3{
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.faqItem p{
+    font-size: 2.4rem;
+    font-weight: 500;
+    display: none;
+}
+.faqContact{
+    margin-top: 5rem;
+}
+.faqContact h3{
+    text-align: center;
+    font-size: 2.4rem;
+}
+.faqContact .faqSignUp{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.faqSignUp input{
+    padding: 2rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    border-radius: 1rem;
+    background-color: transparent;
+    border: 2px solid gray;
+}
+.faqSignUp input[placeholder]{
+    padding-right: 15rem;
+}
+.faqSignUp button{
+    background-color: var(--colorPrimary);
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0 2rem;
+    color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+/* Faq */
